@@ -16,7 +16,7 @@ function Input(): JSX.Element {
     wind: { speed: '' },
     clouds: { all: '' },
   });
-  const apiKey = process.env.REACT_APP_API_KEY;
+  const apiKey = 'ece56a4ebc2c2eee92c57477d597a05a';
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=${apiKey}&lang=ru&units=metric`;
 
   useEffect(() => {
