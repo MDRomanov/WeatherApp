@@ -1,6 +1,7 @@
 # WeatherApp
 
 Just a simple app for viewing the weather in the city you want!
+Just clone the project, and then `npm i && npm start`
 
 ## Getting Started with Create React App
 
